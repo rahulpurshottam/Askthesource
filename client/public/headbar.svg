@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-label="Greater-than symbol">
+  <title>Centered greater-than symbol</title>
+  <defs>
+    <filter id="drop" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <text
+    x="50%"
+    y="50%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-family="'Courier New', Courier, monospace"
+    font-weight="700"
+    font-size="520"
+    fill="#007bff"
+    filter="url(#drop)"
+  >
+    &gt;
+  </text>
+</svg>
